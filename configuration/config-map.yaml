@@ -1,0 +1,11 @@
+apiVersion: v1
+data:
+  DB_USER: postgres
+  DB_PASSWORD: bookswapdbPassword
+  DB_HOST: db
+  DB_NAME: bookswap
+  DB_PORT: "80"
+kind: ConfigMap
+metadata:
+  name: db-configmap
+  namespace: default
